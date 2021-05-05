@@ -12,12 +12,17 @@ export const Button = props => {
         endIcon,
         size,
         color,
+        onClick,
         children
     } = props;
 
-    return <div className={`saynn-button ${variant || ''} ${disableShadow && 'no-shadow'}`}> 
-    {children} 
-    </div>
+    return (
+        <button
+            className={`saynn-button ${variant || ''} ${disableShadow && 'no-shadow'} ${size} ${color} ${disabled && 'disabled'}`}
+            onClick={onClick}>
+            {children}
+        </button>
+    )
 }
 
 Button.propTypes = {
