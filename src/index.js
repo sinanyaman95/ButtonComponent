@@ -19,7 +19,7 @@ ReactDOM.render(
         <p>Medium</p>
         <Button size='md'>Test</Button>
         <p>Large</p>
-        <Button size='lg'>Test</Button>
+        <Button size='lg'>Test</Button> 
       </div>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
         <p>Color Default</p>
@@ -31,11 +31,11 @@ ReactDOM.render(
         <p>Color Danger</p>
         <Button color="danger">Test</Button>
         <p>Disabled</p>
-        <Button disabled>Test</Button>
+        <Button disabled onClick={() => console.log("disabled clicked")}>Test</Button>
         <p>Start Icon</p>
-        <Button startIcon="start">Test</Button>
+        <Button startIcon="star">Test</Button>
         <p>End Icon</p>
-        <Button endIcon="end">Test</Button>
+        <Button endIcon="help outline">Test</Button>
       </div>
     </div>
   </React.StrictMode>,

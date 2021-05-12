@@ -13,6 +13,19 @@
   border: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.saynn-button > p{
+  cursor: pointer;
+}
+
+.saynn-button > svg:first-child{
+  margin-right: .5rem;
+}
+
+.saynn-button > svg:last-child{
+  margin-left: .5rem;
 }
 
 .no-shadow {
@@ -67,4 +80,33 @@
 .danger {
   background-color: rgb(143, 22, 22);
   color: white;
+}
+
+.saynn-button:hover, .saynn-button:focus{
+  background-color: rgb(129, 129, 129);
+}
+
+.saynn-button.primary:hover, .saynn-button.primary:focus{
+  background-color: rgba(51, 59, 173, 0.274);
+}
+
+.saynn-button.secondary:hover, .saynn-button.secondary:focus{
+  background-color: rgba(85, 77, 77, 0.432);
+}
+
+.saynn-button.danger:hover, .saynn-button.danger:focus{
+  background-color: rgba(105, 16, 16, 0.425);
+}
+
+.saynn-button.outline:hover, .saynn-button.outline:focus,
+.saynn-button.text:hover, .saynn-button.text:focus{
+  background-color: rgba(70, 81, 231, 0.274);
+}
+
+.saynn-button.disabled{
+  color: rgb(167, 167, 167);
+}
+
+.saynn-button.disabled:hover, .saynn-button.disabled:focus{
+  background-color: rgb(185, 185, 185);
 }
