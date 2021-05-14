@@ -30,16 +30,16 @@ export const Button = props => {
             let start = null
             switch (startIcon) {
                 case 'star':
-                    start = <MdGrade size={30} />
+                    start = <MdGrade size={28} />
                     break;
                 case 'home':
-                    start = <MdHome size={30} />
+                    start = <MdHome size={28} />
                     break;
                 case 'help':
-                    start = <MdHelp size={30} />
+                    start = <MdHelp size={28} />
                     break;
                 case 'help outline':
-                    start = <MdHelpOutline size={30}/>
+                    start = <MdHelpOutline size={28}/>
                     break;
                 default:
                     start = null

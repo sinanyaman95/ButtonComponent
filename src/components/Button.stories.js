@@ -17,5 +17,5 @@ export const Medium = () => <Button size="md"> Medium </Button>
 export const Large = () => <Button size="lg"> Large </Button>
 export const Disabled = () => <Button disabled> Disabled </Button>
 export const NoShadow = () => <Button disableShadow> No Shadow </Button>
-export const StartEnd = () => <Button startIcon="home" endIcon="help outline"> Both </Button>
 export const Combined = () => <Button size="sm" startIcon="star" color="danger" disableShadow>WOW</Button>
+export const StartEnd = () => <Button startIcon="home" endIcon="help outline"> Both </Button>
